@@ -1,7 +1,7 @@
 {
-  "name": "preentrega3-marinlopez",
+  "name": "pf-marinlopez",
   "version": "1.0.0",
-  "description": "Preentrega3-MarinLopez",
+  "description": "pf-marinlopez",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
@@ -9,19 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marracash0204/PreEntrega3-MarinLopez.git"
+    "url": "git remote add origin https://github.com/marracash0204/PF-MarinLopez.git\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C:\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C"
   },
-  "author": "Camilo Lopez",
+  "author": "camilo lopez",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marracash0204/PreEntrega3-MarinLopez/issues"
-  },
-  "homepage": "https://github.com/marracash0204/PreEntrega3-MarinLopez#readme",
-  "devDependencies": {
+  "dependencies": {
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.21"
-  },
-  "dependencies": {
-    "nodesass": "^0.0.2-security"
   }
 }
