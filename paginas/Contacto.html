@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Venta de cosmeticos">
+  <meta name="keywords"
+    content="Orion Cosmetics, Cosmeticos, venta de maquillaje, venta de cosmeticos, maquillaje pereira">
+  <title>Orion Cosmetics</title>
+  <link rel="icon" href="../media/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+  <header class="container-fluid mb-4">
+    <section class="row ms-0">
+      <article class="col-md-4 col-sm-5">
+        <a href="https://instagram.com/orion_cosmetics_?igshid=OGQ2MjdiOTE="><img class="img-fluid"
+            src="../media/pngegg.png" alt="logo instagram"></a>
+        <a href="https://walink.co/ea61bc"><img class="img-fluid" src="../media/whatsapp.png" alt="Whatsapp"></a>
+      </article>
+      <article class="d-flex flex-nowrap">
+        <img class="rounded mx-auto d-block img-fluid" src="../media/Logo_Orion_Cosmetics_en_circulo.png"
+          class="logo_circulo" alt="Orion cosmetics">
+      </article>
+    </section>
+    <br><br>
+  </header>
+
+
+  <nav class="nav-pills row row-cols-3 justify-content-center text-center">
+
+    <a class="nav1 bg-light link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link"
+      aria-current="page" href="../index.html">Inicio</a>
+    <a class="nav2 bg-light link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link"
+      href="productos.html">Productos</a>
+    <a class="nav3 bg-light link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link"
+      href="cuidado_de_la_piel.html">Cuidado de la piel</a>
+    <a class="nav3 bg-light link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link"
+      href="ubicacion.html">Ubicación</a>
+    <a class="nav3 bg-light link-dark fw-bolder border border-danger flex-sm-fill text-sm-center nav-link"
+      href="Contacto.html">Contáctanos</a>
+  </nav>
+  <br>
+
+
+  <main class="container mt-4">
+
+
+    <h2 class="text-center fw-bolder">Si necesitas hacer una compra al por mayor llena con tus datos y nos contactamos
+      contigo
+    </h2>
+
+    <form class="row mt-4 ms-1 g-3 bg-morado border border-danger " action="#" method="get"
+      enctype="application/x-www-form-urlencoded">
+
+
+      <div class="col-md-4">
+        <label for="validationDefault01" class="fw-bolder form-label">Nombre</label>
+        <input type="text" class="form-control" id="validationDefault01" name="nombre" required>
+      </div>
+      <div class="col-md-4">
+        <label for="validationDefault02" class="fw-bolder form-label">Apellido</label>
+        <input type="text" class="form-control" id="validationDefault02" name="apellido" required>
+      </div>
+      <div class="col-md-4">
+        <label for="exampleFormControlInput1" class="fw-bolder form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+          placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="col-md-6">
+        <label for="validationDefault03" class="fw-bolder form-label">Ciudad</label>
+        <input type="text" class="form-control" id="validationDefault03" name="ciudad" required>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault04" class="fw-bolder form-label">Departamento</label>
+        <select class="form-select" id="validationDefault04" name="departamento" required>
+          <option selected disabled value="">Elige...</option>
+          <option>AMAZONAS</option>
+          <option>ANTIOQUIA</option>
+          <option>ARAUCA</option>
+          <option>ATLÁNTICO</option>
+          <option>BOLÍVAR</option>
+          <option>BOYACÁ</option>
+          <option>CALDAS</option>
+          <option>CAQUETÁ</option>
+          <option>CASANARE</option>
+          <option>CAUCA</option>
+          <option>CESAR</option>
+          <option>CHOCÓ</option>
+          <option>CÓRDOBA</option>
+          <option>CUNDINAMARCA</option>
+          <option>DISTRITO CAPITAL</option>
+          <option>GUAINÍA</option>
+          <option>GUAVIARE</option>
+          <option>HUILA</option>
+          <option>LA GUAJIRA</option>
+          <option>MAGDALENA</option>
+          <option>META</option>
+          <option>NARIÑO</option>
+          <option>NORTE DE SANTANDER</option>
+          <option>PUTUMAYO</option>
+          <option>QUINDÍO</option>
+          <option>RISARALDA</option>
+          <option>SAN ANDRÉS Y PROVIDENCIA</option>
+          <option>SANTANDER</option>
+          <option>SUCRE</option>
+          <option>TOLIMA</option>
+          <option>VALLE</option>
+          <option>VAUPÉS</option>
+          <option>VICHADA</option>
+        </select>
+      </div>
+      <div class="col-md-3">
+        <label for="validationDefault05" class="fw-bolder form-label">Número de teléfono</label>
+        <input type="text" class="form-control" id="validationDefault05" name="num_telefono" required>
+      </div>
+      <div class="col-12">
+        <article class="form-check">
+          <label class="fw-bolder form-check-label" for="invalidCheck2">Acepta términos y condiciones</label>
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" name="terminos_y_condiciones"
+            required>
+        </article>
+      </div>
+      <div class="col-12 text-center">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

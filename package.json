@@ -1,0 +1,27 @@
+{
+  "name": "preentrega3-marinlopez",
+  "version": "1.0.0",
+  "description": "Preentrega3-MarinLopez",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marracash0204/PreEntrega3-MarinLopez.git"
+  },
+  "author": "Camilo Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marracash0204/PreEntrega3-MarinLopez/issues"
+  },
+  "homepage": "https://github.com/marracash0204/PreEntrega3-MarinLopez#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "nodesass": "^0.0.2-security"
+  }
+}
