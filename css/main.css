@@ -5,8 +5,12 @@
   padding: 0;
   box-sizing: border-box; }
 
-html {
-  font-size: 62.5%; }
+.bg_violet:hover {
+  transform: translate(-6px, -6px); }
+
+nav:hover a:hover {
+  transform: translate(5px, 5px);
+  animation-duration: 4s; }
 
 body {
   background-image: linear-gradient(white, violet, rgba(146, 9, 158, 0.349), white); }
@@ -17,33 +21,24 @@ body {
 .bg-morado {
   background-color: #a649fc; }
 
-.bg_violet:hover {
-  transform: translate(-6px, -6px); }
-
-nav:hover li:hover a:hover {
-  transform: translate(5px, 5px);
-  animation-duration: 4s; }
+.limpieza {
+  position: relative;
+  left: 285px; }
 
 main iframe {
   height: 600px;
   width: 100%; }
 
-.logo {
-  display: grid; }
+main section p {
+  text-align: center; }
 
-.logo_cuidado {
-  grid-area: 1 / 6 / span 1 / span 5; }
+.texto {
+  margin: 20px 100px; }
 
-nav ul li {
-  list-style: none;
-  display: flex;
-  justify-content: center; }
-  nav ul li b {
-    gap: 220px; }
-    nav ul li b a {
-      text-decoration: none;
-      background-color: white;
-      border-radius: 5px;
-      text-align: center;
-      border: solid 2px;
-      border-color: red; }
+@media screen and (max-width: 1200px) {
+  .limpieza {
+    display: none; } }
+
+@media screen and (max-width: 576px) {
+  .texto {
+    margin: 20px; } }

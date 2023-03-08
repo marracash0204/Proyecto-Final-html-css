@@ -1,7 +1,11 @@
-.logo {
-    display: grid;
+.limpieza {
+    position: relative;
+    left: 285px;
 }
 
-.logo_cuidado {
-    grid-area: 1 / 6 / span 1 / span 5;
-}
+main {
+    iframe {
+      height: 600px;
+      width: 100%;
+    }
+  }
