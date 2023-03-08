@@ -1,17 +1,18 @@
-
 .bg_violet:hover {
   transform: translate(-6px, -6px);
 }
 
 nav:hover {
-  a:hover {
-    transform: translate(5px, 5px);
-    animation-duration: 4s;
+  li:hover {
+    a:hover {
+      transform: translate(5px, 5px);
+      animation-duration: 4s;
+    }
   }
 }
 
 main {
-  iframe{
+  iframe {
     height: 600px;
     width: 100%;
   }

@@ -1,3 +1,13 @@
+*::after,
+*::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
 body {
   background-image: linear-gradient(white, violet, rgba(146, 9, 158, 0.349), white); }
 
@@ -10,10 +20,30 @@ body {
 .bg_violet:hover {
   transform: translate(-6px, -6px); }
 
-nav:hover a:hover {
+nav:hover li:hover a:hover {
   transform: translate(5px, 5px);
   animation-duration: 4s; }
 
 main iframe {
   height: 600px;
   width: 100%; }
+
+.logo {
+  display: grid; }
+
+.logo_cuidado {
+  grid-area: 1 / 6 / span 1 / span 5; }
+
+nav ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center; }
+  nav ul li b {
+    gap: 220px; }
+    nav ul li b a {
+      text-decoration: none;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      border: solid 2px;
+      border-color: red; }
